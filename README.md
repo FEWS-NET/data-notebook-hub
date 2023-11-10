@@ -44,6 +44,6 @@ how to make a pull request.
 
 - [Pymarkdownlnt](https://pypi.org/project/pymarkdownlnt/) - Linting library for
 `.md` files
-- [Pandas]
-- [Numpy]
-- [requests]
+- Pandas
+- Numpy
+- requests
