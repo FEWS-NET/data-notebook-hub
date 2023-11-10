@@ -66,7 +66,7 @@ Next activate the virtual environment:
 source 'path-to-env' /bin/activate
 ```
 
-Once the virtual environment is activated. Install the requirements:
+Once the virtual environment is activated, install the requirements:
 
 ```text
 pip install -r 'path-to-root-directory' requirements.txt
