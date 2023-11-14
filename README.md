@@ -45,10 +45,12 @@ your needs and Follow the instructions within each notebook to run the code cell
 - On the terminal use the following commands:
 
 ```text
-git clone <your url here> {local_repo_name}
+git clone <your url here> {desired_local_repo_name}
 ```
 
-This will clone the repository to your local machine. PS. {local_repo_name}
+This will clone the repository to your local machine.
+
+PS. {desired_local_repo_name}
 is optional you can use a desired name or leave it.
 
 ### 2. Creating a virtual environment and installing requirements
@@ -60,19 +62,19 @@ will be created and on the terminal, enter the following commands:
 python -m venv env_name
 ```
 
+replace env_name with a preferred name for your virtual environment.
+
 Next activate the virtual environment:
 
 ```text
-source 'path-to-env' /bin/activate
+source 'path-to-env'/bin/activate
 ```
 
 Once the virtual environment is activated, install the requirements:
 
 ```text
-pip install -r 'path-to-root-directory' requirements.txt
+pip install -r 'path-to-project-root-directory' requirements.txt
 ```
-
-replace env_name with a preferred name for your virtual environment.
 
 ### 3. Run jupyter notebook
 
