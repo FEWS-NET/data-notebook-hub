@@ -31,7 +31,8 @@ To get started:
 2. Create a virtual environment and Install the necessary dependencies
 listed in the requirements.txt file. (Each notebook has a requirements.txt
 file that lists the libraries used).
-3. Explore the notebooks directory to find examples relevant to
+3. Open the directory on Jupyter/Jupyterlab
+4. Explore the notebooks directory to find examples relevant to
 your needs and Follow the instructions within each notebook to run the code cells.
 
 ## Set-up guide
@@ -76,7 +77,26 @@ Once the virtual environment is activated, install the requirements:
 pip install -r 'path-to-project-root-directory' requirements.txt
 ```
 
-### 3. Run jupyter notebook
+### 3. Open the Notebook/Notebooks directory on Jupyter (Jupyterlab)
+
+On the terminal, with the  virtual environment activated. Run:
+
+```text
+jupyterlab 
+```
+
+This will instantiate a local server at port 8888 and open a tab on 
+your browser where you can explore the notebooks and run them.
+Alternatively, you can open them on Jupyter rathr than jupyter lab. to do this, run:
+
+```text
+jupyter notebook
+```
+
+This will also open a local server at localhost:8888 and open a new tab on your browser.
+
+if the tab does not open automatically, check the output on the terminal and
+copy the provided url and open it on your browser.
 
 ## General Libraries
 
@@ -85,6 +105,7 @@ pip install -r 'path-to-project-root-directory' requirements.txt
 - Pandas
 - Numpy
 - requests
+- Jupyter
 
 ## Contributions
 
