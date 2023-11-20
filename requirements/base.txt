@@ -1,0 +1,7 @@
+jupyter==1.0.0
+jupyterlab==4.0.8
+pandas==2.1.2
+pipreqs==0.4.13
+requests==2.31.0
+numpy==1.26.1
+ruff==0.1.5

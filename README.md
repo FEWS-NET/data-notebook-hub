@@ -5,8 +5,8 @@ Welcome to the FEWSNET API Notebooks Repository!
 
 This repository is a curated collection of Jupyter notebooks
 designed to serve as a practical resource for understanding
-and executing public API calls. Our notebooks provide hands-on
-examples, required libs and tutorials that guide you through
+and executing API calls. Our notebooks provide hands-on
+examples, required libraries and tutorials that guide you through
 various data queries and manipulations using APIs.
 
 ## Features
@@ -29,13 +29,13 @@ To get started:
 
 1. Clone the repository/download the notebook to your local machine.
 2. Create a virtual environment and Install the necessary dependencies
-listed in the requirements.txt file. (Each notebook has a requirements.txt
+listed in the requirements.txt file. (Each project folder has a requirements.txt
 file that lists the libraries used).
 3. Open the directory on Jupyter/Jupyterlab
 4. Explore the notebooks directory to find examples relevant to
 your needs and Follow the instructions within each notebook to run the code cells.
 
-## Set-up guide
+## Python Set-up guide
 
 ### 1. Clone the entire repository using HTTP
 
