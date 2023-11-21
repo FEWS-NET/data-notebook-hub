@@ -5,3 +5,4 @@ pipreqs==0.4.13
 requests==2.31.0
 numpy==1.26.1
 ruff==0.1.5
+nbdev==2.3.13

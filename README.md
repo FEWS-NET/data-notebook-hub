@@ -106,6 +106,7 @@ copy the provided url and open it on your browser.
 - Numpy
 - requests
 - Jupyter
+- [nbdev2](https://www.fast.ai/posts/2022-08-25-jupyter-git.html) - Suitable for managing notebooks with multiple contributors
 
 ## Contributions
 
