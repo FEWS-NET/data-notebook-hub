@@ -67,6 +67,25 @@ project name/
 
 ### How to generate requirements.txt file
 
+We use `pipreqsnb` to generate the requirements.txt. The library only
+picks the libraries that have been imported in your notebook thereby ensuring
+minimal conflicts with other dependencies.
+
+To generate the requirements.txt for your notebook:
+
+1. Navigate to your project root folder or where the jupyter notebook is stored.
+2. If you need the requirements for just one notebook, you can generate it using the command below:
+
+```bash
+pipreqsnb /path/to/notebook
+```
+
+3. For instaces where there are more than 1 notebook in your project directory:
+
+```bash
+pipreqsnb
+```
+
 ## Step 5: Commit Your Changes
 
 Commit your changes with a clear and descriptive commit message:
