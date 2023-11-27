@@ -67,7 +67,7 @@ project name/
 
 ### How to generate requirements.txt file
 
-We use `pipreqsnb` to generate the requirements.txt. The library only
+We use [`pipreqsnb`](https://github.com/ivanlen/pipreqsnb) to generate the requirements.txt. The library only
 picks the libraries that have been imported in your notebook thereby ensuring
 minimal conflicts with other dependencies.
 
