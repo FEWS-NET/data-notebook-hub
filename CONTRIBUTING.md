@@ -86,6 +86,17 @@ pipreqsnb /path/to/notebook
 pipreqsnb
 ```
 
+Before commiting the notebook with new changes, ensure you clear all outputs.
+This can be done using the Jupyter lab menu items under:
+
+ `Edit -> Clear Cell Output`
+
+ or by using `nbstripout`
+
+```bash
+nbstripout /notebook/file
+```
+
 ## Step 5: Commit Your Changes
 
 Commit your changes with a clear and descriptive commit message:
@@ -124,7 +135,7 @@ If requested, make further changes and push them to your branch.
 
 [nbdime](https://nbdime.readthedocs.io/en/latest/installing.html#installing-nbdime)
 
-`nbdime` is useful in trackign changes made to the notebook since the last commit.
+`nbdime` is useful in tracking changes made to the notebook since the last commit.
 
 If you are making changes to an existing notebook, ensure you use
 this library to ascertain you are making changes where they are needed. 
