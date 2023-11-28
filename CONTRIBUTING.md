@@ -119,3 +119,12 @@ git push origin your-new-branch-name
 After submitting, wait for feedback or review from the project maintainers.
 
 If requested, make further changes and push them to your branch.
+
+## Other tools
+
+[nbdime](https://nbdime.readthedocs.io/en/latest/installing.html#installing-nbdime)
+
+`nbdime` is useful in trackign changes made to the notebook since the last commit.
+
+If you are making changes to an existing notebook, ensure you use
+this library to ascertain you are making changes where they are needed. 
