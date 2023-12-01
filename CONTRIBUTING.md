@@ -67,6 +67,36 @@ project name/
 
 ### How to generate requirements.txt file
 
+We use [`pipreqsnb`](https://github.com/ivanlen/pipreqsnb) to generate the requirements.txt. The library only
+picks the libraries that have been imported in your notebook thereby ensuring
+minimal conflicts with other dependencies.
+
+To generate the requirements.txt for your notebook:
+
+1. Navigate to your project root folder or where the jupyter notebook is stored.
+2. If you need the requirements for just one notebook, you can generate it using the command below:
+
+```bash
+pipreqsnb /path/to/notebook
+```
+
+3. For instaces where there are more than 1 notebook in your project directory:
+
+```bash
+pipreqsnb
+```
+
+Before commiting the notebook with new changes, ensure you clear all outputs.
+This can be done using the Jupyter lab menu items under:
+
+ `Edit -> Clear Cell Output`
+
+ or by using `nbstripout`
+
+```bash
+nbstripout /notebook/file
+```
+
 ## Step 5: Commit Your Changes
 
 Commit your changes with a clear and descriptive commit message:
@@ -100,3 +130,12 @@ git push origin your-new-branch-name
 After submitting, wait for feedback or review from the project maintainers.
 
 If requested, make further changes and push them to your branch.
+
+## Other tools
+
+[nbdime](https://nbdime.readthedocs.io/en/latest/installing.html#installing-nbdime)
+
+`nbdime` is useful in tracking changes made to the notebook since the last commit.
+
+If you are making changes to an existing notebook, ensure you use
+this library to ascertain you are making changes where they are needed. 

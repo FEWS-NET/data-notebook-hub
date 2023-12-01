@@ -1,8 +1,8 @@
 jupyter==1.0.0
 jupyterlab==4.0.8
 pandas==2.1.2
-pipreqs==0.4.13
+pipreqsnb
 requests==2.31.0
 numpy==1.26.1
 ruff==0.1.5
-nbdev==2.3.13
+nbdime==4.0.1
