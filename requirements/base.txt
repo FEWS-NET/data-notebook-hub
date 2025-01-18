@@ -1,8 +1,8 @@
-jupyter==1.0.0
-jupyterlab==4.0.8
-pandas==2.1.2
+jupyter==1.1.1
+jupyterlab==4.3.4
+pandas==2.2.3
 pipreqsnb
-requests==2.31.0
-numpy==1.26.1
-ruff==0.1.5
-nbdime==4.0.1
+requests==2.32.3
+numpy==2.2.1
+ruff==0.9.1
+nbdime==4.0.2
